@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=l, initial-scale=1.0" />
+    <!-- <title>IOTA</title> -->
+    <link rel="stylesheet" href="home.css" />
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            var navbar = document.getElementById("navbar");
+    
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                navbar.style.top = "0";
+                navbar.style.backgroundColor = "blue";
+            } else {
+                navbar.style.top = "0px";
+                navbar.style.backgroundColor = "brown";
+            }
+        }
+    </script>
+    
+    </head>
+    <body>
+        <div class = "landing">
+            <div class="navbar">
+                <!-- <h1>Plan IT</h1> -->
+                <img src="PlanIT_logo.png">
+                <div>
+                  <a href="#landing"><button class="log" >Home</button></a>
+                  <a href="#about"> <button class="log" >About Us</button></a>
+                  <a href="#services"> <button class="log" >Services</button></a>
+                  <a href="#review"> <button class="log" >Review</button></a>
+                  <a href="#footer"> <button class="log" >Contact Us</button></a>
+                </div>
+              </div>
+              <center>
+                <div id="landing" class="landing_text">
+                Your one stop platform to plan all trips
+                </div>
+              </center>
+        </div>
+        <div id="about" class="about_us_box">
+            <div class="about_us_large">
+                    <h1>W h y&nbsp;&nbsp; C h o o s e</h1>
+                    <h1> P l a n IT ?</h1>
+                    <p>
+                        Elevate your travels with TripITista. Seamlessly plan unique journeys, connect with
+                        local vendors for exclusive shopping, and contribute to communities
+                        Make your adventure extraordinary with us. 
+                    </p>
+                    <!-- <div class="about_us_button">
+                        Know More
+                    </div> -->
+            </div>
+            <div class="about_us_mini">
+                <div class="s1">
+                    <h1>Our Team</h1>
+                    <p>3</p>
+                </div>
+                <div class="s2">
+                    <h1>No of Collaborators</h1>
+                    <p>62</p>
+                </div>
+                <div class="s3">
+                    <h1>Happy Customers</h1>
+                    <p>626</p>
+                </div>
+                <div class="s4">
+                    <h1>Daily Visitors</h1>
+                    <p>1.3K</p>
+                </div>
+            </div>
+        </div>
+        <div id="services" class="services-container">
+            <h1 class="services-heading">SERVICES</h1>
+            <p class="services-subheading">These are all the services provided by PlanIT to improvise your overall trip experience within your pocket budgets.</p>
+        
+            <div class="services-flex-container">
+              <div class="service-box">
+                <h2 class="service-text">Travelling</h2>
+                <p class="service-text"> Here book your travelling options. PlanIT brings you with the option of choosing the mode of transport and booking it with the ease of sitting at your home</p>
+              </div>
+        
+              <div class="service-box">
+                <h2>Hotel Booking</h2>
+                <p>Stay at your favourite places and make your trip more comfortable and fun.</p>
+              </div>
+        
+              <div class="service-box">
+                <h2>Shopping</h2>
+                <p>Shop from the best places you are visiting with the best prices and at the ease of your smartphones.</p>
+              </div>
+        
+              <div class="service-box">
+                <h2>Places to Visit</h2>
+                <p>Explore the best places to visit near you.</p>
+              </div>
+            </div>
+          </div>
+        <!-- reviews -->
+          <div id="review" class="reviews-container">
+            <h1 class="reviews-heading">REVIEWS</h1>
+            <p class="reviews-subheading">Your opinion and experience matters a lot! </p>
+        
+        <div class="review-card">
+          <div class="reviewer-info">
+            <img src="profile pic.png" alt="Reviewer Avatar" class="reviewer-avatar">
+            <div>
+              <div class="reviewer-name">Sushant Bansal</div>
+              <div class="review-date">October 15, 2023</div>
+            </div>
+          </div>
+          <p class="review-content">Incredible platform! PlanIT made planning our trip a breeze. Personalized recommendations and seamless booking left us with nothing but amazing memories.</p>
+        </div>
+        
+        <div class="review-card">
+          <div class="reviewer-info">
+            <img src="profile pic.png" alt="Reviewer Avatar" class="reviewer-avatar">
+            <div>
+              <div class="reviewer-name">Chetan Mittal</div>
+              <div class="review-date">October 12, 2023</div>
+            </div>
+          </div>
+          <p class="review-content">Our best travel decision yet! PlanIT seamlessly blends innovation and community, creating a platform that truly understands your travel style. Can't wait for the next adventure!</p>
+        </div>
+        
+        <div class="review-card">
+            <div class="reviewer-info">
+              <img src="profile pic.png" alt="Reviewer Avatar" class="reviewer-avatar">
+              <div>
+                <div class="reviewer-name">Pawan Kumar</div>
+                <div class="review-date">April 27, 2023</div>
+              </div>
+            </div>
+            <p class="review-content">Impressive! PlanIT combines technology and a love for travel seamlessly. The local vendor feature brought authenticity to our trip, and we're already planning our next adventure with them.</p>
+          </div>
+        
+          <div class="review-card">
+            <div class="reviewer-info">
+              <img src="profile pic.png" alt="Reviewer Avatar" class="reviewer-avatar">
+              <div>
+                <div class="reviewer-name">Sia Mittal</div>
+                <div class="review-date">January 26, 2023</div>
+              </div>
+            </div>
+            <p class="review-content">Outstanding experience! PlanIT not only curated an unforgettable itinerary but also fostered a sense of community. Connecting with local vendors made our trip richer and more meaningful.</p>
+          </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer id="footer" class="footer">
+          <div class="footer-columns">
+            
+            <div class="footer-column">
+              <h3>About Us</h3>
+              <p>Craft Your Story, Create Memories</p>
+              <img src="PlanIT_logo.png" style="height:150px;">
+            </div>
+            <div class="footer-column">
+              <h3>Contact Us</h3>
+              <ul>
+                <li>123 Travel Street</li>
+                <li>Cityville, Country</li>
+                <li>Email: info@travelagency.com</li>
+                <li>Phone: +123 456 789</li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+              <ul>
+                  <li><img src="icons8-instagram-24.png" width="20px" alt="insta_logo"><a class="social-handle" href="#">Instagram</a></li>
+                  <li><img src="icons8-facebook-24.png" width="20px" alt="facebook_logo"><a class="social-handle" href="#">Facebook</a></li>
+                  <li><img src="icons8-twitter-24.png" width="20px" alt="twitter_logo"><a class="social-handle" href="#">Twitter</a></li>
+                  <li><img src="icons8-pinterest-24.png" width="20px" alt="pinterest_logo"><a class="social-handle" href="#">Pinterest</a></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        
+    </body>
+</html>
